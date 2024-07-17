@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    
+    background-color: rgb(245, 243, 244);
+    height: 60px;
+    width: 100%;
+    padding-top: 0%;
+
+}
+.logo{
+  
+    width: 60px;
+    height:60px;
+    margin-left: 0%;
+    float: left;
+    padding: 0px;
+}
+.nav1,li{
+    display: inline;
+    float: right;
+    display: flex;
+    font-size: larger ;
+    text-decoration: none;
+    height: 100px;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-right: 1%;
+}
+
+li:hover{
+    background-color: rgb(246, 236, 167);
+    box-sizing: border-box;
+    height: 50px;
+    transition:2;
+    border-radius: 100px ;
+    display: inline;
+}
+
+
+body{
+    background-color: rgb(28, 16, 16);
+    position: sticky;
+    
+}
+div h1{
+    color: white;
+    text-align: center;
+    padding: 5%;
+}
+
+
+p{
+    text-align: center;
+    color: white;
+    font-size: large;
+   
+    width: 90%;
+    margin-left: 4%;
+    height: 70px;
+}
+.iframe{
+    height: 500px;
+    width: 50%;
+    margin-left: 400px;
+   
+
+}
+
+.form{
+    border-color: rgb(237, 237, 243);
+    border-width: 6px;
+    border-style: solid;
+    display: inline-block;
+    width:400px;
+    padding: 5px;
+    text-align: center;
+}
+input:hover{
+   background-color: black;
+   color: white;
+}
+textarea:hover{
+    background-color: black;
+    color: white;
+ }
+ input{
+    height: 60px;
+ }
+textarea{
+    height: 60px;
+    border-radius: 4px;
+}
+button{
+    padding: 15px;
+    margin: 50px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+
+}
+button:hover{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 50%;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 80%;
+    }
+}
+footer{
+    background-color: white;
+    color: black;
+}
+.footer{
+    color: black;
+    height: 50px;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
+
+
+
+.contact{
+    color: white;
+    text-align: center;
+    padding-left: 250px;
+}

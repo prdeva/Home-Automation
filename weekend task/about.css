@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    
+    background-color: rgb(245, 243, 244);
+    height: 60px;
+    width: 100%;
+    padding-top: 0%;
+
+}
+.logo{
+  
+    width: 60px;
+    height:60px;
+    margin-left: 0%;
+    float: left;
+    padding: 0px;
+}
+.nav1,li{
+    display: inline;
+    float: right;
+    display: flex;
+    font-size: larger ;
+    text-decoration: none;
+    height: 100px;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-right: 1%;
+}
+
+li:hover{
+    background-color: rgb(246, 236, 167);
+    box-sizing: border-box;
+    height: 50px;
+    transition:2;
+    border-radius: 100px ;
+    display: inline;
+}
+
+.footer{
+   
+    color: black;
+    font-size: large;
+    background-color: white;
+    margin: 200px;
+    padding: 1%;
+    height: 50px;
+    width: 100%;
+    margin-left: 0%;
+   text-transform: uppercase;
+   font-size: large;
+   
+
+
+}
+body{
+    background-color: black;
+}
+div h1{
+    color: white;
+    text-align: center;
+    padding: 5%;
+}
+.img1{
+     padding-top:10px ;
+    margin: 30px;
+    height: 300px;
+    width: 400px;
+    border-color: white;
+    border-width: 5px;
+    border-style: solid;
+    float: left;
+
+}
+.img2{
+    padding-top:10px ;
+    margin: 30px;
+    height: 300px;
+    width: 400px;
+    border-color: white;
+    border-width: 5px;
+    border-style: solid;
+   margin-left: 250px;
+    
+
+    
+}
+.img3{
+    padding-top:10px ;
+    margin: 30px;
+    height: 300px;
+    width: 400px;
+    border-color: white;
+    border-width: 5px;
+    border-style: solid;
+    float: right;
+  
+}
+
+
+.img4{
+    padding-top:10px ;
+    margin: 30px;
+    height: 300px;
+    width: 400px;
+    border-color: white;
+    border-width: 5px;
+    border-style: solid;
+    float: right;
+
+}
+.img5{
+    padding-top:10px ;
+    margin: 30px;
+    height: 300px;
+    width: 400px;
+    border-color: white;
+    border-width: 5px;
+    border-style: solid;
+    float: left;
+}
+.img6{
+    padding-top:10px ;
+    margin: 30px;
+    height: 300px;
+    width: 400px;
+    border-color: white;
+    border-width: 5px;
+    border-style: solid;
+    margin-left: 250px;
+
+
+}
+#row1{
+    display: flex;
+   margin-right: 100px;
+}
+p{
+    text-align: center;
+    color: white;
+    font-size: large;
+   
+    width: 90%;
+    margin-left: 4%;
+    height: 70px;
+}
+.iframe{
+    height: 500px;
+    width: 50%;
+    margin-left: 400px;
+     
+   
+
+}
+footer{
+    background-color: white;
+    color: black;
+}
+.footer{
+    color: black;
+    height: 50px;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
